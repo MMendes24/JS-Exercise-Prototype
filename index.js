@@ -145,10 +145,10 @@ console.log(babyOne.play());
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Default binding, where this will refer to either window in browser or console in node.
+  2. Implicit binding, where the this keyword refers to the object preceding the dot. Most common use. All over this .js file.
+  3. Explicit binding, where we force this to be bound to a particular object such as with .call or .apply.
+  4. New binding, where we this refers to a specific object created and returned by the constructor function.
 */
 
 
